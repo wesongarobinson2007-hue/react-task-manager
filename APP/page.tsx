@@ -1,5 +1,3 @@
-import Link from "next/link"
-
 export default function Home() {
   return (
     <main className="page-shell">
@@ -12,12 +10,12 @@ export default function Home() {
             dashboard experience.
           </p>
           <div className="hero-actions">
-            <Link href="/dashboard" className="button button-primary">
+            <a href="/dashboard" className="button button-primary">
               Open dashboard
-            </Link>
-            <Link href="/new" className="button button-secondary">
+            </a>
+            <a href="/new" className="button button-secondary">
               Create task
-            </Link>
+            </a>
           </div>
         </div>
       </section>
